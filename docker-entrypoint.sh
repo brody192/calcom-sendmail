@@ -1,8 +1,6 @@
 #!/bin/sh
 set -e
 
-export ALLOWED_HOSTNAMES=\"${ALLOWED_HOSTNAME}\"
-
-echo $ALLOWED_HOSTNAMES
+export ALLOWED_HOSTNAMES=\"${ALLOWED_HOSTNAMES}\"
 
 exec "$@"
